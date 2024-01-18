@@ -46,3 +46,11 @@
 .wd-100{
     height: 30px;
 }
+
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+  }
